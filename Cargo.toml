@@ -1,7 +1,11 @@
 [package]
 name = "ks"
 version = "0.1.0"
+authors = ["m2en <me@merunno.dev>"]
+description = "Inciting the scum that typo'd ls with ks."
 edition = "2021"
+homepage = "https://github.com/approvers/ks"
+license = "MIT"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
