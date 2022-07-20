@@ -24,7 +24,14 @@ fn main() {
 
     if opt.ls {
         println!("や～い！'ls'と間違えるお前に権限はなーい！");
+    } else if opt.c {
+        println!("複数列にソートしようとしましたが、'ks'というコマンドにそんな機能はありません～")
+    } else if opt.r {
+        println!("ks.lock ks.toml LICENCE ks.md 'ks' \n\n ./ks:\nks.rs")
+    } else if opt.one {
+        println!("や\n～\nい\n！\nカ\nス\nカ\nス\n！");
     } else {
         println!("や～い！カスカス！");
     }
+
 }
